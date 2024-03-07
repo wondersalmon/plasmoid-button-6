@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Id": "configurablebutton",
+        "Name": "Configurable Button",
+        "Comment": "A button that executes commands",
+        "Icon": "system-run",
+        "Category": "Utilities",
+        "Type": "Plasma/Applet",
+        "Author": "Your Name",
+        "License": "GPLv2+",
+        "Version": "1.0",
+        "Dependencies": [
+            "plasma"
+        ],
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Website": "https://github.com/pmarki/plasmoid-button"
+    },
+    "X-Plasma-API": "python",
+    "X-Plasma-MainScript": "code/main.py"
+}
